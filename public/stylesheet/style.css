@@ -515,6 +515,12 @@ h3 {
   background-color: #0062cc;
 }
 
+.team{
+  background-color: #765762;
+  color: white;
+  padding: 15px;
+  margin-bottom: -15px;
+}
 /* Add your custom styles here */
 
 /* Example customizations */
@@ -603,11 +609,11 @@ body {
 .image2 {
   position: relative;
   display: flex;
-  margin-left: -950px;
+  margin-left: -1000px;
   height: 600px;
   /* padding-right: 50px; */
-  margin-right: 65px;
-  margin-top: 150px;
+  margin-right: 95px;
+  margin-top: 210px;
   /* box-shadow: 8px 8px rgb(31, 30, 30); */
   border-radius: 10px;
   width: 850px;
