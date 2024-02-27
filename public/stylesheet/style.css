@@ -55,7 +55,7 @@ nav li a {
 } */
 
 nav li a:hover {
-  color: rgb(235, 37, 37);
+  color: darkorange;
 
 }
 
@@ -334,13 +334,16 @@ footer {
 
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
-  background: #00bcd4;
+  background: #007bff;
   color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
   border-radius: 5px;
+}
+.contactForm .inputBox input[type="submit"]:hover{
+  background-color: #0062cc;
 }
 
 @media screen and (max-width: 650px) {
@@ -672,19 +675,20 @@ input:focus {
 }
 
 button {
-  background-color: rgb(43, 123, 89);
+  background-color: #007bff;
   /* border: transparent; */
   padding: 10px 15px;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
+  font-size: 15px;
   /* margin-right: 80px; */
   /* transition: 0.3s ease-in; */
 }
 
 button:hover {
-  background-color: #ccc;
-  border: 2px solid rgb(110, 124, 187);
-  color: black;
+  background-color: #0062cc;
+  /* border: 2px solid rgb(110, 124, 187); */
+  /* color: black; */
   /* transition: 0.3s ease-out; */
   cursor: pointer;
 }
@@ -863,10 +867,12 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 .apply-now-button:hover {
   background-color: #0062cc;
+  text-decoration: none;
 }
 
 .program-section h2 {
@@ -978,4 +984,21 @@ nav a {
 
 .quote p {
   font-size: 1,
+}
+
+.icon{
+  padding: 8px;
+  /* margin-left: 15px; */
+}
+
+.icons{
+  color: #ccc;
+  padding: 25px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+.icons:hover{
+  color: darkorange;
 }
